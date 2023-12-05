@@ -1,0 +1,118 @@
+.design{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #01395e;
+}
+.razdel{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.info{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid #0091cf;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #0091cf;
+    min-width: 300px;
+    max-width: 30%;
+    margin: 15px;
+    padding: 20px;
+}
+.block_text{
+    text-align: justify;
+}
+.head{
+    text-align: center;
+}
+.flex_head{
+    text-align: center;
+    flex-basis: 100%;
+}
+.photo_ramka{
+    border-radius: 20px;
+    max-width: 80%;
+    height: auto;
+    overflow: hidden;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.ramka{
+    border-radius: 20px;
+    box-shadow: 0 0 10px #0091cf;
+    max-width: 40%;
+    margin: 15px;
+    height: auto;
+    overflow: hidden;
+}
+.pair{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.reversedpair{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.description{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;    
+    max-width: 40%;
+    height: auto;
+}
+.footer{
+    background-color: #01395e;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.footer_text{
+    text-align: justify;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.link{
+    color: #ffffff;
+}
+@media (max-width: 1100px) {
+    .description{
+        max-width: 100%;
+    }
+    .design{
+        font-size: 20px;
+    }
+    .ramka{
+        max-width: 80%;
+    }
+    .footer_text{
+        font-size: 20px;
+    }
+  }
+  
